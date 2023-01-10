@@ -44,7 +44,7 @@ def ask_number(question, low, high):
 def pieces():
     """Определяет принадлежность первого хода."""
     go_first = ask_yes_no("Xoчeшь оставить за собой первый ход? (y/n): ")
-    if go_first == "у":
+    if go_first == "y":
         print("\nHy что ж. даю тебе фору: играй крестиками.")
         human = Х
         computer = O
